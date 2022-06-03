@@ -1,8 +1,8 @@
 [tool.poetry]
 name = 'RodgersICA'
 version = '0.1.0'
-description = ''
-authors = ['Kirk Knobelspiesse <email_address>']
+description = 'Rodgers Information Content Assessment (ICA)'
+authors = ['Kirk Knobelspiesse <kirk.knobelspiesse@nasa.gov>']
 
 [tool.poetry.dependencies]
 python = '^3.8'

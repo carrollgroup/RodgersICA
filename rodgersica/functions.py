@@ -1,10 +1,10 @@
-'''function to calculate the parameter error covariance matrix'''
-
 import numpy as np
 
 #input Jacobian, K, [n x m], error covariance matrix Se, [m x m] and a priori matrix Sa, [n x n]
 #jac_me and me are associated with model uncertainty - that parameterized uncertainty and its jacobian
 def rodgers(jac, err, ap, model_error={}, model_error_jacobian={}): 
+    '''calculate the parameter error covariance matrix'''
+    
     #todo
     # consider microplastic simulation jacobian in the following manner: Se' = Se + Kb Sb Kbt, where 
     #  Se is the same as above, Sb is the microplastic parameter uncertainty, Kb the microplastic jacobian
