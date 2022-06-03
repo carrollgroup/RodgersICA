@@ -1,4 +1,5 @@
-```function to calculate the parameter error covariance matrix```
+'''function to calculate the parameter error covariance matrix'''
+
 import numpy as np
 
 #input Jacobian, K, [n x m], error covariance matrix Se, [m x m] and a priori matrix Sa, [n x n]
